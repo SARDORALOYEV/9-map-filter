@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding:0 45px ;
+    border-bottom: 2px solid #dedbdb;
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+}
+.language{
+    color: #424242;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    background-color: transparent;
+    border: none;
+}
+.hero{
+    padding: 43px 0;
+}
+.hero__wrapper{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #dedbdb;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 60px 53px 34px 64px;
+}
+.hero__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__exit{
+    display: flex;
+    align-items: center;
+    color: #f0400f;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.hero__exit img{
+    margin-left: 20px;
+}
+.title{
+    color: #0e0d5d;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 133px;
+}
+.form{
+    max-width: 533px;
+    width: 100%;
+    
+}
+.form__wrapper{
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    margin: 20px auto;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pupil{
+    width: 255px;
+    background-color: transparent;
+    color: rgb(117, 117, 117);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    border: none;
+}
+.pupil:hover{
+    background-color: #fff;
+    border-radius: 15px;
+}
+.form__info{
+    width: 100%;
+}
+.input{
+    width: 100%;
+    padding: 20px 0 20px 51px;
+    outline: none;
+    margin-bottom: 39px;
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.form__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px 20px 51px;
+    outline: none;
+    margin-bottom: 39px;
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.form__info input{
+    outline: none;
+    border: none;
+    padding: 5px 0;
+    background-color: transparent;
+}
+.form__info button {
+    border: none;
+    background-color: transparent;
+}
+::placeholder{
+    color: rgba(117, 117, 117, 0.7);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.qrCode{
+    color: rgba(0, 0, 0, 0.64);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-bottom: 34px;
+}
+.submit{
+    max-width: 202px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 17px 0;
+    border: none;
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #f69e86;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.switch{
+    background-color: orangered;
+    transition: all;
+}
+.koz{
+    background-image: url("./images/koz.png");
+    width: 30px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.student__wrapper{
+    width: 400px;
+    padding:30px;
+    border-radius: 16px 16px 24px 24px;
+    background-color:black;
+    border:2px solid aqua;
+    margin: 100px auto;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    color:green;
+    font-size:1.6rem;
+    flex-wrap:wrap;
+    transition: 0.3s ease-in-out;
+    font-family:"Atkinson Hyperlegible Mono";
+
+}
+.student__wrapper:hover{
+    .ismi{
+        text-shadow: 0 3px 4px red;
+
+    }
+    text-shadow: 0 3px 4px green;
+    box-shadow: 12px 12px 40px 1px aqua;
+
+}
+.ismi{
+    transition: 0.3s ease-in-out;
+
+    color:red;
+}
+#reset{
+    background-color:red;
+    color:#fff;
+    border-radius:20px;
+    font-size:1.6rem;
+    padding:12px;
+    font-family:"Atkinson Hyperlegible Mono";
+    border:none;
+
+}
+.container__shop{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#product__form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#product__input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#product__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#coinlaaaar{
+    width: 16px;
+    height: 16px;
+}
+#Nomi{
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+}
+#white{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.box {
+    background: blue;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+height: 275px;
+padding: 15px;
+}
+#product__form button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.box img {
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+.box h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+.box p {
+    margin: 5px 0;
+    color: #777;
+}
+.box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.box button:hover {
+    background-color: #0056b3;
+}
